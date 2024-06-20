@@ -1,10 +1,11 @@
 import React from 'react'
 
-type Props = {}
 
-const InvoiceList = (props: Props) => {
+const InvoiceList = () => {
   return (
-    <div>InvoiceList</div>
+    <div>
+        
+    </div>
   )
 }
 

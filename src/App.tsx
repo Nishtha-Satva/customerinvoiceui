@@ -6,6 +6,7 @@ import Customer from './pages/Customer/Customer';
 import Invoice from './pages/Invoice/Invoice';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import CustomerForm from './components/CustomerForm/CustomerForm';
+import InvoiceForm from './components/InvoiceForm/InvoiceForm';
 
 function App() {
 
@@ -21,6 +22,10 @@ function App() {
     {
       path: "/addCustomer",
       element: <CustomerForm />
+    },
+    {
+      path: "/addInvoice",
+      element: <InvoiceForm />
     }
     ])
   return (

@@ -37,7 +37,7 @@ const columns: ColumnsType = [
 
 const CustomerList = () => {
   return (
-    <Table  columns={columns} pagination={false} />
+    <Table columns={columns} pagination={false} />
   );
 };
 

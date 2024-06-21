@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.add-customerBtn {
+  background-color: #6172F3 ;
+}
+.add-customerBtn:hover {
+  background-color: #6172F3 !important;
+}
+.add-invoiceBtn {
+  background-color: #6172F3;
+}
+.add-invoiceBtn  :hover{
+  background-color: #6172F3;
+}
+.eye-btn {
+  background-color: #404040;
+}
+.edit-btn {
+  background-color: #6172F3;
+}
+.navbar {
+  background-color: #404040;
+}
+.menu-item {
+  color: white;
+}
+
+
